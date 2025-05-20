@@ -1,0 +1,81 @@
+#container{
+    display: flex;
+    flex-direction: row;
+    /*justify-content: center;*/
+    gap: 10px;
+}
+
+.lagu{
+    border-radius: 10px;
+    border: 1px solid rgb(95, 94, 94);
+    width: 30%;
+    padding: 15px;
+    background-color: rgba(41, 38, 38, 0.603);
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 10px;    
+}
+
+.lagu h2{
+    margin-bottom: 5px;
+}
+
+.lagu img{
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 10%;
+    align-items: center;
+    display: block;
+}
+
+.bawah{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} 
+
+.lagu small{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.kanan i, .kanan .icon {
+    margin-right: 2px;
+    color: red;
+}
+
+.kiri i, .kiri.icon{
+    margin-right: 6px;
+}
+
+.skip{
+    margin: 10px;
+    justify-content: space-between;
+    display: flex;
+    font-size: 25px;
+}
+
+.garis {
+    width: 90%;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 20px;
+}
+
+.durasi {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+
+.volume {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
